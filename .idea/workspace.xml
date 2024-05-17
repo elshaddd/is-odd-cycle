@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4fb1ca0-cc35-4ec6-852d-a2a88d74edb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IsOddCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/complex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/complex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/connector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/connector.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/even1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/even1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/even2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/even2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/graph0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/graph0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/graph1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/graph1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/noEdges.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/noEdges.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/notCycle1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/notCycle1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/notCycle2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/notCycle2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/one_component.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/one_component.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/three_components.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/three_components.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/wrongDir1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/wrongDir1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/wrongDir2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/directed/wrongDir2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/big_flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/big_flower.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/big_flower_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/big_flower_false.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/complex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/complex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/connector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/connector.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/even1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/even1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/even2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/even2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/even3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/even3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/graph0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/graph0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/graph1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/graph1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/noEdges.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/noEdges.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/notCycle5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/two_components1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/two_components1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/two_components2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/isOddCycle/undirected/two_components2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IsOddCycleTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2gavDcG7A4CGRAfcTAFcLg9CNAF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.IsOddCycleTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/elshad/IdeaProjects/is-odd-cycle/src/main/resources"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.IsOddCycleTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="is-odd-cycle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsOddCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="is-odd-cycle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsOddCycleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IsOddCycleTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4fb1ca0-cc35-4ec6-852d-a2a88d74edb1" name="Changes" comment="" />
+      <created>1715948386328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715948386328</updated>
+    </task>
+    <servers />
+  </component>
+</project>
