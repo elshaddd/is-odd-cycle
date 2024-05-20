@@ -10,7 +10,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class IsOddCycleTest {
     //    DIRECTED
     @Test
-    public void dirSimpleTest() throws FileNotFoundException {
+    public void DirSimpleTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var first = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/graph0.txt"));
         var second = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/graph1.txt"));
@@ -20,7 +20,7 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void dirEvenCycleTest() throws FileNotFoundException {
+    public void DirEvenCycleTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var even_first = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/even1.txt"));
         var even_second = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/even2.txt"));
@@ -30,7 +30,7 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void dirNoEdges() throws FileNotFoundException {
+    public void DirNoEdges() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var graph = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/noEdges.txt"));
 
@@ -38,7 +38,7 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void wrongDirectionTest() throws FileNotFoundException {
+    public void WrongDirectionTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var false_3 = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/wrongDir1.txt"));
         var false_5 = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/wrongDir2.txt"));
@@ -48,7 +48,7 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void dirNotCycleTest() throws FileNotFoundException {
+    public void DirNotCycleTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var false_1 = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/notCycle1.txt"));
         var lack = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/notCycle2.txt"));
@@ -58,7 +58,7 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void dirComponentsTest() throws FileNotFoundException {
+    public void DirComponentsTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var one = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/one_component.txt"));
         var three = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/three_components.txt"));
@@ -68,7 +68,7 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void dirComplexTest() throws FileNotFoundException {
+    public void DirComplexTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var connector = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/connector.txt"));
         var complex = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/directed/complex.txt"));
@@ -79,7 +79,7 @@ public class IsOddCycleTest {
 
     //    UNDIRECTED
     @Test
-    public void undSimpleTest() throws FileNotFoundException {
+    public void UndSimpleTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var first = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/graph0.txt"));
         var second = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/graph1.txt"));
@@ -89,7 +89,7 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void undEvenCycleTest() throws FileNotFoundException {
+    public void UndEvenCycleTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var first = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/even1.txt"));
         var second = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/even2.txt"));
@@ -102,7 +102,7 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void undNoEdges() throws FileNotFoundException {
+    public void UndNoEdges() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var graph = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/noEdges.txt"));
 
@@ -110,7 +110,7 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void undNotCycleTest() throws FileNotFoundException {
+    public void UndNotCycleTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var first = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/notCycle1.txt"));
         var second = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/notCycle2.txt"));
@@ -126,17 +126,17 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void undComponentsTest() throws FileNotFoundException {
+    public void UndComponentsTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
-        var two_one = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/two_components1.txt"));
-        var two_two = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/two_components2.txt"));
+        var two_one = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/two_components_correct.txt"));
+        var two_two = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/two_components_wrong.txt"));
 
         assertThat(isOddCycle.execute(two_one)).isTrue();
         assertThat(isOddCycle.execute(two_two)).isFalse();
     }
 
     @Test
-    public void undComplexTest() throws FileNotFoundException {
+    public void UndComplexTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
         var connector = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/connector.txt"));
         var complex = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/complex.txt"));
@@ -146,10 +146,10 @@ public class IsOddCycleTest {
     }
 
     @Test
-    public void flowerTest() throws FileNotFoundException {
+    public void FlowerTest() throws FileNotFoundException {
         IsOddCycle isOddCycle = new IsOddCycle();
-        var flower = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/big_flower.txt"));
-        var wrong = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/big_flower_false.txt"));
+        var flower = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/big_flower_correct.txt"));
+        var wrong = GraphFactory.loadGraphFromFile(new File("src/main/resources/isOddCycle/undirected/big_flower_wrong.txt"));
 
         assertThat(isOddCycle.execute(flower)).isTrue();
         assertThat(isOddCycle.execute(wrong)).isFalse();
